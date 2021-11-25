@@ -7,6 +7,12 @@
 const app = new Vue({
     el: '#root',
     data: {
-        message: "Prova",
-    }
+        message: "Feeling like.. ",
+        image: "https://i.imgur.com/kZBWBsS.jpg ",
+    },
+    methods: {
+        clicca: function () {
+            alert('Ti piacerebbe!')
+        }
+    },
 });

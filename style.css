@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#root
+
+.contenitore {
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: orangered;
+}
+
+img {
+    width: 400px;
+}
+
+button {
+    border: 1px solid orangered;
+    border-radius: 5px;
+    color: orangered;
+    padding: 3px;
+
+}

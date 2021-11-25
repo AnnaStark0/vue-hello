@@ -12,7 +12,12 @@
 <body>
 
     <div id="root">
-        <h1>{{message}}</h1>
+        <div class="contenitore">
+            <h1>{{message}}</h1>
+            <img v-bind:src="image" alt="tony-stark">
+            <br>
+            <button @click="clicca">Click me</button>
+        </div>
     </div>
 
 
